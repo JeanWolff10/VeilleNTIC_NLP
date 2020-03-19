@@ -125,7 +125,7 @@ Pour les ingénieurs utilisant cette technologie en production, de très nombreu
 Par ailleurs, le dispositif de veille mis en place, dorénavant bien paramétré et fonctionnel, permet de s’informer efficacement sur les dernières actualités du domaine de la NLP. La mise au point de cette veille a demandé du temps, mais cela sera largement compensé par le gain de temps considérable qui sera réalisé à l’avenir, à chaque fois que je voudrais mettre à jour mes connaissances.
 
 
-Le rapport détaillant le dispositif de veille est consultable [ici](url).
+Le rapport détaillant le dispositif de veille est consultable [ici](https://jeanwolff10.github.io/VeilleNTIC_NLP/Rapport_de_veille_Jean_Wolff.pdf).
 
 
 
