@@ -1,11 +1,12 @@
 ![Image3](imagenlp.jpg)
 
 ## Introduction
-Un ingénieur se doit d’être au courant des avancées technologiques de son domaine, de se forger son opinion et de faire sa part dans le développement de nos sciences et techniques. Or, avec les innombrables laboratoires de recherche à travers le monde, tous les médias et toutes les sources d’information, effectuer un sérieux travail de veille technologique peut être très fastidieux et chronophage. Cette activité importante, parfois délaissée aux stagiaires dans certaines entreprises, peut devenir très efficace si l’on utilise des outils adaptés, et apporte alors beaucoup de valeur.
+<div style="text-align: justify">Un ingénieur se doit d’être au courant des avancées technologiques de son domaine, de se forger son opinion et de faire sa part dans le développement de nos sciences et techniques. Or, avec les innombrables laboratoires de recherche à travers le monde, tous les médias et toutes les sources d’information, effectuer un sérieux travail de veille technologique peut être très fastidieux et chronophage. Cette activité importante, parfois délaissée aux stagiaires dans certaines entreprises, peut devenir très efficace si l’on utilise des outils adaptés, et apporte alors beaucoup de valeur.
 
 Dans le cadre du MOS 4.4 "Nouvelles Technologies de l’Information et de la Communication" de l’École Centrale de Lyon, nous développons des outils de veille pertinents par rapport au domaine qui nous intéresse. Le domaine que j’ai choisi est le traitement automatique du langage naturel en informatique, plus fréquemment appelé « natural language processing » (NLP).
 
 La NLP est une partie phare des technologies de l’information : à la jonction de la linguistique, de l’informatique et de l’intelligence artificielle, c’est la partie de cette dernière qui a le plus d’applications. Les principales sont les moteurs de recherche, tels Google et Bing, des chatbot de plus en plus « intelligents », l’analyse de sentiment, la création de résumés… L’application historique de l’apprentissage artificiel appliqué au langage est la détection des spams, pour lesquelles Gmail réussi depuis les années 2000 à bien classer plus de 98% des e-mails.
+</div>
 
 ## Historique
 Avant de s’intéresser à l’état actuel de la NLP, penchons-nous sur les avancées successives de cette technologie.
@@ -106,6 +107,7 @@ Une méthode est le **topic modeling**, qui permet de passer dans un nouvel espa
 Cela permet de représenter les documents dans un espace intermédiaire, de plus faible dimension, tout en conservant la proximité des documents entre eux.
 
 ![Image1](dimension.png)
+Source : http://eric.univ-lyon2.fr/~ricco/cours/cours_text_mining.html
 
 ## Apprentissage automatique
 Après les étapes précédentes (nettoyage du texte, vectorisation et réduction de dimension), on peut appliquer des algorithmes de machine learning.
