@@ -104,7 +104,10 @@ Cela permet de représenter les documents dans un espace intermédiaire, de plus
 
 
 
-![Image](src)
+![Image1](dimension.png)
+![Image2](nuage.png)
+![Image3](imagenlp.jpg)
+![Image4](imagenlp2.jpg)
 
 
 
