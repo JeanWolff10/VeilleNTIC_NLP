@@ -1,29 +1,26 @@
 ![Image3](imagenlp.jpg)
 
 ## Introduction
-<div style="text-align: justify">Un ingénieur se doit d’être au courant des avancées technologiques de son domaine, de se forger son opinion et de faire sa part dans le développement de nos sciences et techniques. Or, avec les innombrables laboratoires de recherche à travers le monde, tous les médias et toutes les sources d’information, effectuer un sérieux travail de veille technologique peut être très fastidieux et chronophage. Cette activité importante, parfois délaissée aux stagiaires dans certaines entreprises, peut devenir très efficace si l’on utilise des outils adaptés, et apporte alors beaucoup de valeur.<br/>
-</div>
+Un ingénieur se doit d’être au courant des avancées technologiques de son domaine, de se forger son opinion et de faire sa part dans le développement de nos sciences et techniques. Or, avec les innombrables laboratoires de recherche à travers le monde, tous les médias et toutes les sources d’information, effectuer un sérieux travail de veille technologique peut être très fastidieux et chronophage. Cette activité importante, parfois délaissée aux stagiaires dans certaines entreprises, peut devenir très efficace si l’on utilise des outils adaptés, et apporte alors beaucoup de valeur.
 
-<div style="text-align: justify">Dans le cadre du MOS 4.4 "Nouvelles Technologies de l’Information et de la Communication" de l’École Centrale de Lyon, nous développons des outils de veille pertinents par rapport au domaine qui nous intéresse. Le domaine que j’ai choisi est le traitement automatique du langage naturel en informatique, plus fréquemment appelé « natural language processing » (NLP).<br/>
-</div>
+Dans le cadre du MOS 4.4 "Nouvelles Technologies de l’Information et de la Communication" de l’École Centrale de Lyon, nous développons des outils de veille pertinents par rapport au domaine qui nous intéresse. Le domaine que j’ai choisi est le traitement automatique du langage naturel en informatique, plus fréquemment appelé « natural language processing » (NLP).
 
-<div style="text-align: justify">La NLP est une partie phare des technologies de l’information : à la jonction de la linguistique, de l’informatique et de l’intelligence artificielle, c’est la partie de cette dernière qui a le plus d’applications. Les principales sont les moteurs de recherche, tels Google et Bing, des chatbot de plus en plus « intelligents », l’analyse de sentiment, la création de résumés… L’application historique de l’apprentissage artificiel appliqué au langage est la détection des spams, pour lesquelles Gmail réussi depuis les années 2000 à bien classer plus de 98% des e-mails.
-</div>
+La NLP est une partie phare des technologies de l’information : à la jonction de la linguistique, de l’informatique et de l’intelligence artificielle, c’est la partie de cette dernière qui a le plus d’applications. Les principales sont les moteurs de recherche, tels Google et Bing, des chatbot de plus en plus « intelligents », l’analyse de sentiment, la création de résumés… L’application historique de l’apprentissage artificiel appliqué au langage est la détection des spams, pour lesquelles Gmail réussi depuis les années 2000 à bien classer plus de 98% des e-mails.
 
 ## Historique
 Avant de s’intéresser à l’état actuel de la NLP, penchons-nous sur les avancées successives de cette technologie.
 
-- <div style="text-align: justify">Années 50 : Le test de Turing, qui permettrait de détecter une réelle « intelligence » artificielle, consiste en ce qu’un humain arriverait à distinguer un humain d’une machine dans une discussion. Le premier élément à maîtriser pour qu’une intelligence artificielle soit labellisée « intelligente », est donc le langage. Le concept de traitement du langage naturel apparaît donc dans les années 50, avec des prémices de traduction.</div>
+- Années 50 : Le test de Turing, qui permettrait de détecter une réelle « intelligence » artificielle, consiste en ce qu’un humain arriverait à distinguer un humain d’une machine dans une discussion. Le premier élément à maîtriser pour qu’une intelligence artificielle soit labellisée « intelligente », est donc le langage. Le concept de traitement du langage naturel apparaît donc dans les années 50, avec des prémices de traduction.
 
-- <div style="text-align: justify">Années 50 - 80 : La NLP connait un développement lent. Les seules techniques sont des algorithmes et statistiques “à la main”. Les fonds de recherche, initialement élevées, diminuent.</div>
+- Années 50 - 80 : La NLP connait un développement lent. Les seules techniques sont des algorithmes et statistiques “à la main”. Les fonds de recherche, initialement élevées, diminuent.
 
-- <div style="text-align: justify">Années 70 : Création des premières ontologies, c’est-à-dire représentations structurées des concepts, avec des espaces de nom ou des métadonnées. On voit également l’apparition des premiers chatbots.</div>
+- Années 70 : Création des premières ontologies, c’est-à-dire représentations structurées des concepts, avec des espaces de nom ou des métadonnées. On voit également l’apparition des premiers chatbots.
 
-- <div style="text-align: justify">Années 90 : L’arrivée du Big Data permet l’introduction de l’apprentissage artificiel. Les premières améliorations sont sur la robustesse des algorithmes, en particulier par rapport aux erreurs d’orthographe et aux « coquilles », très courants dans les données réelles.</div>
+- Années 90 : L’arrivée du Big Data permet l’introduction de l’apprentissage artificiel. Les premières améliorations sont sur la robustesse des algorithmes, en particulier par rapport aux erreurs d’orthographe et aux « coquilles », très courants dans les données réelles.
 
-- <div style="text-align: justify">Années 2010 : Le rapide développement des réseaux de neurones profonds permet de grandes améliorations. Des applications à haut niveau d’abstraction telles que l’analyse syntaxique et la génération de langage commencent à être développées.</div>
+- Années 2010 : Le rapide développement des réseaux de neurones profonds permet de grandes améliorations. Des applications à haut niveau d’abstraction telles que l’analyse syntaxique et la génération de langage commencent à être développées.
 
-- <div style="text-align: justify">2019 : Deux algorithmes conçus indépendamment par Alibaba et par Microsoft battent des humaines dans des tests de lecture et de compréhension de Stanford.</div>
+- 2019 : Deux algorithmes conçus indépendamment par Alibaba et par Microsoft battent des humaines dans des tests de lecture et de compréhension de Stanford.
 
 #### Applications actuelles
 La NLP est la partie de l’intelligence artificielle qui a le plus d’applications. Les principales actuelles sont :
@@ -143,49 +140,3 @@ Par ailleurs, le dispositif de veille mis en place, dorénavant bien paramétré
 
 
 Le rapport détaillant le dispositif de veille est consultable [ici](https://jeanwolff10.github.io/VeilleNTIC_NLP/Rapport_de_veille_Jean_Wolff.pdf).
-
-
-
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/JeanWolff10/VeilleNTIC_NLP/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-```
-
-```python
-for k in range(100):
-  print(1)
-```
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/JeanWolff10/VeilleNTIC_NLP/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
