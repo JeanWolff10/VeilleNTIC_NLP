@@ -41,15 +41,15 @@ Les étapes de cette transformation préliminaire sont :
 
 Observons ces étapes sur un exemple : 
 
-Phrase initiale : Je vais au cinéma, puis je mange au restaurant.
+0. Phrase initiale : Je vais au cinéma, puis je mange au restaurant.
 
-Suppressions de la ponctuation : ‘je vais au cinema puis je mange au restaurant’
+1. Suppressions de la ponctuation : ‘je vais au cinema puis je mange au restaurant’
 
-Tokenization : [‘je’, ‘vais’, ‘au’, ‘cinema’, ‘puis’, ‘je’, ‘mange’, ‘au’, ‘restaurant’]
+2. Tokenization : [‘je’, ‘vais’, ‘au’, ‘cinema’, ‘puis’, ‘je’, ‘mange’, ‘au’, ‘restaurant’]
 
-Stopwords : [‘vais’, ‘cinema’, ‘mange’, ‘restaurant’]
+3. Stopwords : [‘vais’, ‘cinema’, ‘mange’, ‘restaurant’]
 
-Lemmatization : [aller, ‘cinema’, ‘manger’, ‘restaurant’]
+4. Lemmatization : [aller, ‘cinema’, ‘manger’, ‘restaurant’]
 
 
 D’autres actions sont possibles, comme par exemple écarter les mots qui apparaissent une seule fois, ou encore, faire un nuage de mots pour visualiser les mots les plus fréquents.
