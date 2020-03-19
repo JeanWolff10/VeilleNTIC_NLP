@@ -1,3 +1,5 @@
+![Image3](imagenlp.jpg)
+
 ## Introduction
 Un ingénieur se doit d’être au courant des avancées technologiques de son domaine, de se forger son opinion et de faire sa part dans le développement de nos sciences et techniques. Or, avec les innombrables laboratoires de recherche à travers le monde, tous les médias et toutes les sources d’information, effectuer un sérieux travail de veille technologique peut être très fastidieux et chronophage. Cette activité importante, parfois délaissée aux stagiaires dans certaines entreprises, peut devenir très efficace si l’on utilise des outils adaptés, et apporte alors beaucoup de valeur.
 
@@ -48,8 +50,7 @@ Les étapes de cette transformation préliminaire sont :
 
 4. Extraire seulement la racine des mots. Une première technique est le **stemming**, qui consiste à tronquer le mot. Une méthode plus avancée, qui concentre beaucoup de recherches actuellement, est le **lemmatizing**, qui consiste à tronquer le mot puis à remettre les bonnes lettres pour obtenir la racine d’un mot unique. Cette tâche est très complexe, en particulier pour le français (par rapport à l’anglais), de par les nombreuses formes que peuvent prendre les mots, notamment pour la conjugaison. Par exemple, si on considère les phrases « les **avions** dans le ciel » et « nous **avions** des oranges », pour le même mot « avions », le lemmatizing idéal serait d’extraire deux racines différentes : la racine « avion » pour la première phrase, et « avoir » pour la deuxième. Par contre, dans la phrase « que nous **eussions** mangé », il faut extraire de « eussions » encore une fois le mot « avoir ». Or, « eussions » et « avions » sont 2 mots très différents.
 
-Observons ces étapes sur un exemple : 
-0. Phrase initiale : Je vais au cinéma, puis je mange au restaurant.
+Observons ces étapes sur un exemple. Prenons la phrase : Je vais au cinéma, puis je mange au restaurant.
 
 1. Suppressions de la ponctuation : ‘je vais au cinema puis je mange au restaurant’
 
@@ -59,7 +60,9 @@ Observons ces étapes sur un exemple :
 
 4. Lemmatization : [aller, ‘cinema’, ‘manger’, ‘restaurant’]
 
-D’autres actions sont possibles, comme par exemple écarter les mots qui apparaissent une seule fois, ou encore, faire un nuage de mots pour visualiser les mots les plus fréquents.
+D’autres actions sont possibles, comme par exemple écarter les mots qui apparaissent une seule fois, ou encore, faire un nuage de mots comme ci-dessous pour visualiser les mots les plus fréquents.
+
+![Image2](nuage.png)
 
 ## Vectoriser le texte
 Une fois le texte nettoyé, l’étape suivante est de vectoriser le texte. Cela signifie encoder l’ensemble de mots en un vecteur de nombres. 2 méthodes sont possibles : le N-gram et le Bag of Word.
@@ -102,14 +105,7 @@ Une méthode est le **topic modeling**, qui permet de passer dans un nouvel espa
 
 Cela permet de représenter les documents dans un espace intermédiaire, de plus faible dimension, tout en conservant la proximité des documents entre eux.
 
-
-
 ![Image1](dimension.png)
-![Image2](nuage.png)
-![Image3](imagenlp.jpg)
-![Image4](imagenlp2.jpg)
-
-
 
 ## Apprentissage automatique
 Après les étapes précédentes (nettoyage du texte, vectorisation et réduction de dimension), on peut appliquer des algorithmes de machine learning.
@@ -117,6 +113,8 @@ Après les étapes précédentes (nettoyage du texte, vectorisation et réductio
 La première étape est l’analyse préliminaire, avec notamment la création de features. Des features emblématiques sont, pour l’exemple des spams, la longueur du mail, et le pourcentage de caractères qui sont de la ponctuation. Il faut ensuite choisir un modèle d’apprentissage (random Forest, XGBoost…). Puis vient l’entraînement du modèle sur les données, l’évaluation des résultats obtenus (par exemple avec une matrice de confusion, avec la précision et le taux de rappel). Enfin la mise en production pour être effectuée.
 
 En data science, le pre-processing (la préparation des données) est très important. Et cela est vrai tout particulièrement pour la NLP, où, d’autant plus avec des données réelles, les retours au nettoyage des données sont omniprésents. 
+
+![Image4](imagenlp2.jpg)
 
 ## Génération de langage
 La génération de langage est le domaine de recherche de la NLP le plus actif. De multiples laboratoires tentent de parvenir à concevoir des machines sachant rédiger des résumés, des traductions, des légendes d’images, des chatbots capables de tenir une conversation…
