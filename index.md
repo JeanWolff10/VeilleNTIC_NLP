@@ -2,10 +2,12 @@
 
 ## Introduction
 <div style="text-align: justify">Un ingénieur se doit d’être au courant des avancées technologiques de son domaine, de se forger son opinion et de faire sa part dans le développement de nos sciences et techniques. Or, avec les innombrables laboratoires de recherche à travers le monde, tous les médias et toutes les sources d’information, effectuer un sérieux travail de veille technologique peut être très fastidieux et chronophage. Cette activité importante, parfois délaissée aux stagiaires dans certaines entreprises, peut devenir très efficace si l’on utilise des outils adaptés, et apporte alors beaucoup de valeur.
+</div>
 
-Dans le cadre du MOS 4.4 "Nouvelles Technologies de l’Information et de la Communication" de l’École Centrale de Lyon, nous développons des outils de veille pertinents par rapport au domaine qui nous intéresse. Le domaine que j’ai choisi est le traitement automatique du langage naturel en informatique, plus fréquemment appelé « natural language processing » (NLP).
+<div style="text-align: justify">Dans le cadre du MOS 4.4 "Nouvelles Technologies de l’Information et de la Communication" de l’École Centrale de Lyon, nous développons des outils de veille pertinents par rapport au domaine qui nous intéresse. Le domaine que j’ai choisi est le traitement automatique du langage naturel en informatique, plus fréquemment appelé « natural language processing » (NLP).
+</div>
 
-La NLP est une partie phare des technologies de l’information : à la jonction de la linguistique, de l’informatique et de l’intelligence artificielle, c’est la partie de cette dernière qui a le plus d’applications. Les principales sont les moteurs de recherche, tels Google et Bing, des chatbot de plus en plus « intelligents », l’analyse de sentiment, la création de résumés… L’application historique de l’apprentissage artificiel appliqué au langage est la détection des spams, pour lesquelles Gmail réussi depuis les années 2000 à bien classer plus de 98% des e-mails.
+<div style="text-align: justify">La NLP est une partie phare des technologies de l’information : à la jonction de la linguistique, de l’informatique et de l’intelligence artificielle, c’est la partie de cette dernière qui a le plus d’applications. Les principales sont les moteurs de recherche, tels Google et Bing, des chatbot de plus en plus « intelligents », l’analyse de sentiment, la création de résumés… L’application historique de l’apprentissage artificiel appliqué au langage est la détection des spams, pour lesquelles Gmail réussi depuis les années 2000 à bien classer plus de 98% des e-mails.
 </div>
 
 ## Historique
