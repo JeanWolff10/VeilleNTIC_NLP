@@ -23,7 +23,7 @@ Avant de s’intéresser à l’état actuel de la NLP, penchons-nous sur les av
 
 - 2019 : 	Deux algorithmes conçus indépendamment par Alibaba et par Microsoft battent des humaines dans des tests de lecture et de compréhension de Stanford.
 
-### Applications actuelles
+#### Applications actuelles
 La NLP est la partie de l’intelligence artificielle qui a le plus d’applications. Les principales actuelles sont :
 - L’extraction d’information ou la recherche d’information (par exemple avec les moteurs de recherche Google et Bing)
 
@@ -68,7 +68,7 @@ D’autres actions sont possibles, comme par exemple écarter les mots qui appar
 ## Vectoriser le texte
 Une fois le texte nettoyé, l’étape suivante est de vectoriser le texte. Cela signifie encoder l’ensemble de mots en un vecteur de nombres. 2 méthodes sont possibles : le N-gram et le Bag of Word.
 
-### Bag of Word (BoW) « de base »
+#### Bag of Word (BoW) « de base »
 Le modèle initial du Bag of Words conserve tous les mots, et consiste à mettre chaque document dans une ligne d’une matrice, avec dans chaque colonne le nombre d’occurrence du mot correspondant. Les inconvénients de cette méthode sont qu’elle ne rend pas compte de l’ordre des mots, ni des relations entre les mots.
 
 La matrice encodée a les priorités suivantes :
@@ -83,7 +83,7 @@ Avec scikit-learn, le module nécessaire est CountVectorizer. Ses fonctions prin
 
 - transform() : encode un ou plusieurs documents en vecteurs
 
-### Bag of Word TF-IDF (Term Frequency - Inverse Document Frequency) 
+#### Bag of Word TF-IDF (Term Frequency - Inverse Document Frequency) 
 - « Term frequency » : fréquence d’apparition du mot dans le document (équivalent au bag of word précédent).
 
 - « Inverse Document Frequency » : diminue les fréquences des mots présents dans de nombreux documents
@@ -92,7 +92,7 @@ Cette technique permet de faire ressortir les mots intéressants (qui apparaisse
 
 C’est la méthode la plus populaire actuellement pour vectoriser le texte.
 
-### N-gram
+#### N-gram
 Le N-gram est une méthode différente du Bag of Word. Elle rend compte de l’importance du voisinage entre les mots. Ce voisinage peut être déterminant pour certaines tâches. Par exemple, la présence de “only for you” dans un mail rend la probabilité que ce soit un spam très élevée.
 Ce modèle considère toutes les associations de N mots voisins : Le chat est doux → Le chat / chat est / est doux.
 L’inconvénient est que cette méthode est très coûteuse, ce qui limite N, qui vaut 2 ou 3 au maximum.
@@ -125,7 +125,7 @@ Cela nécessite un **modèle de langage**, qui calcule, pour un mot donné, conn
 
 Une application récente notable est la **création d’articles Wikipédia par Google**. Pour un sujet donné, des données sont extraites des 10 premières pages de recherche Google, hormis Wikipédia. Tous les paragraphes extraits sont classés dans un unique document (de quelques dizaines de milliers de mots), puis les longues phrases sont découpées en plus courtes. Les phrases générées sont directement extraites du texte obtenu, sans plus de reformulation. Et l’algorithme peut apprendre en comparant à la définition de Wikipédia, qui est, elle, rédigée par un humain.
 
-### Chatbot
+#### Chatbot
 Une autre application importante est le chatbot. 2 modèles sont possibles : le « retrieve » et le « generative ».
 	
 Pour le **retrieve model**, les données n’ont pas besoin d’être labellisées. On a un ensemble de documents que l’on met sous forme de vecteur. Pour une question donnée, il faut d’abord la transformer en un vecteur. Puis on calcule les distances cos-similarité entre la question et les documents, et le chatbot répond le document qui est le plus proche de la question.
