@@ -13,17 +13,17 @@
 ## Historique
 Avant de s’intéresser à l’état actuel de la NLP, penchons-nous sur les avancées successives de cette technologie.
 
-- Années 50 : Le test de Turing, qui permettrait de détecter une réelle « intelligence » artificielle, consiste en ce qu’un humain arriverait à distinguer un humain d’une machine dans une discussion. Le premier élément à maîtriser pour qu’une intelligence artificielle soit labellisée « intelligente », est donc le langage. Le concept de traitement du langage naturel apparaît donc dans les années 50, avec des prémices de traduction.
+- <div style="text-align: justify">Années 50 : Le test de Turing, qui permettrait de détecter une réelle « intelligence » artificielle, consiste en ce qu’un humain arriverait à distinguer un humain d’une machine dans une discussion. Le premier élément à maîtriser pour qu’une intelligence artificielle soit labellisée « intelligente », est donc le langage. Le concept de traitement du langage naturel apparaît donc dans les années 50, avec des prémices de traduction.</div>
 
-- Années 50 - 80 : La NLP connait un développement lent. Les seules techniques sont des algorithmes et statistiques “à la main”. Les fonds de recherche, initialement élevées, diminuent.
+- <div style="text-align: justify">Années 50 - 80 : La NLP connait un développement lent. Les seules techniques sont des algorithmes et statistiques “à la main”. Les fonds de recherche, initialement élevées, diminuent.</div>
 
-- Années 70 : Création des premières ontologies, c’est-à-dire représentations structurées des concepts, avec des espaces de nom ou des métadonnées. On voit également l’apparition des premiers chatbots.
+- <div style="text-align: justify">Années 70 : Création des premières ontologies, c’est-à-dire représentations structurées des concepts, avec des espaces de nom ou des métadonnées. On voit également l’apparition des premiers chatbots.</div>
 
-- Années 90 : L’arrivée du Big Data permet l’introduction de l’apprentissage artificiel. Les premières améliorations sont sur la robustesse des algorithmes, en particulier par rapport aux erreurs d’orthographe et aux « coquilles », très courants dans les données réelles.
+- <div style="text-align: justify">Années 90 : L’arrivée du Big Data permet l’introduction de l’apprentissage artificiel. Les premières améliorations sont sur la robustesse des algorithmes, en particulier par rapport aux erreurs d’orthographe et aux « coquilles », très courants dans les données réelles.</div>
 
-- Années 2010 : Le rapide développement des réseaux de neurones profonds permet de grandes améliorations. Des applications à haut niveau d’abstraction telles que l’analyse syntaxique et la génération de langage commencent à être développées.
+- <div style="text-align: justify">Années 2010 : Le rapide développement des réseaux de neurones profonds permet de grandes améliorations. Des applications à haut niveau d’abstraction telles que l’analyse syntaxique et la génération de langage commencent à être développées.</div>
 
-- 2019 : 	Deux algorithmes conçus indépendamment par Alibaba et par Microsoft battent des humaines dans des tests de lecture et de compréhension de Stanford.
+- <div style="text-align: justify">2019 : Deux algorithmes conçus indépendamment par Alibaba et par Microsoft battent des humaines dans des tests de lecture et de compréhension de Stanford.</div>
 
 #### Applications actuelles
 La NLP est la partie de l’intelligence artificielle qui a le plus d’applications. Les principales actuelles sont :
