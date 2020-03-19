@@ -23,11 +23,17 @@ Avant de s’intéresser à l’état actuel de la NLP, penchons-nous sur les av
 ### Applications actuelles
 La NLP est la partie de l’intelligence artificielle qui a le plus d’applications. Les principales actuelles sont :
 - L’extraction d’information ou la recherche d’information (par exemple avec les moteurs de recherche Google et Bing)
+
 - Des chatbot de plus en plus « intelligents »
+
 - L’analyse de sentiment
+
 - De la traduction
+
 - La création de résumés, de descriptifs type Wikipédia… 
+
 - La reconnaissance vocale
+
 - L’auto-correcteur orthographique
 
 ## Transformation préliminaire : nettoyage du texte
@@ -35,12 +41,14 @@ La première étape du traitement automatique du langage naturel, est comme pour
 
 Les étapes de cette transformation préliminaire sont :
 1. Enlever la ponctuation et la casse.
+
 2. Tokenization : mettre les mots dans des string, puis dans une liste
+
 3. Suppression des « mots vides » (stopwords) : tous les mots qui contiennent peu de sens en propre sont éliminés. Exemples : a, à, afin, ainsi, alors, assez, auquel…
+
 4. Extraire seulement la racine des mots. Une première technique est le **stemming**, qui consiste à tronquer le mot. Une méthode plus avancée, qui concentre beaucoup de recherches actuellement, est le **lemmatizing**, qui consiste à tronquer le mot puis à remettre les bonnes lettres pour obtenir la racine d’un mot unique. Cette tâche est très complexe, en particulier pour le français (par rapport à l’anglais), de par les nombreuses formes que peuvent prendre les mots, notamment pour la conjugaison. Par exemple, si on considère les phrases « les **avions** dans le ciel » et « nous **avions** des oranges », pour le même mot « avions », le lemmatizing idéal serait d’extraire deux racines différentes : la racine « avion » pour la première phrase, et « avoir » pour la deuxième. Par contre, dans la phrase « que nous **eussions** mangé », il faut extraire de « eussions » encore une fois le mot « avoir ». Or, « eussions » et « avions » sont 2 mots très différents.
 
 Observons ces étapes sur un exemple : 
-
 0. Phrase initiale : Je vais au cinéma, puis je mange au restaurant.
 
 1. Suppressions de la ponctuation : ‘je vais au cinema puis je mange au restaurant’
@@ -50,7 +58,6 @@ Observons ces étapes sur un exemple :
 3. Stopwords : [‘vais’, ‘cinema’, ‘mange’, ‘restaurant’]
 
 4. Lemmatization : [aller, ‘cinema’, ‘manger’, ‘restaurant’]
-
 
 D’autres actions sont possibles, comme par exemple écarter les mots qui apparaissent une seule fois, ou encore, faire un nuage de mots pour visualiser les mots les plus fréquents.
 
@@ -62,16 +69,21 @@ Le modèle initial du Bag of Words conserve tous les mots, et consiste à mettre
 
 La matrice encodée a les priorités suivantes :
 - Elle a le même nombre de colonne que le nombre de mots du vocabulaire.
+
 - Elle contient des int comptant le nombre d’occurrence de chaque mot
+
 - Elle est sparse, c’est-à-dire qu’elle contient une grande proportion de 0. Le package scipy.parse permet de manipuler des éléments sparse efficacement.
 
 Avec scikit-learn, le module nécessaire est CountVectorizer. Ses fonctions principales sont les suivantes :
 - fit() : apprend le vocabulaire d’un ensemble de documents
+
 - transform() : encode un ou plusieurs documents en vecteurs
 
 ### Bag of Word TF-IDF (Term Frequency - Inverse Document Frequency) 
-« Term frequency » : fréquence d’apparition du mot dans le document (équivalent au bag of word précédent).
-« Inverse Document Frequency » : diminue les fréquences des mots présents dans de nombreux documents
+- « Term frequency » : fréquence d’apparition du mot dans le document (équivalent au bag of word précédent).
+
+- « Inverse Document Frequency » : diminue les fréquences des mots présents dans de nombreux documents
+
 Cette technique permet de faire ressortir les mots intéressants (qui apparaissent beaucoup dans un document, mais pas dans les autres). Comme précédemment, les inconvénients sont qu’elle ne rend pas compte de l’ordre des mots, ni des relations entre les mots.
 
 C’est la méthode la plus populaire actuellement pour vectoriser le texte.
